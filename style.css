@@ -1,0 +1,51 @@
+
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+body{
+    width: auto;
+    background-color: blue;
+    width: auto;
+}
+.container {
+    margin: auto;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+}
+.border{ 
+    border:solid;
+    width: 600px;
+    height: 600px;
+    background-color: red;
+    margin: auto;
+    
+}
+.container .grid-rows{
+    flex:1;
+    overflow: hidden;
+    display: flex;
+    background-color: white;
+}
+.grid-item{
+    flex:1;
+    
+   
+}
+.buttons{
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    width: 500px;
+    border:solid;
+    
+
+}
+
+
